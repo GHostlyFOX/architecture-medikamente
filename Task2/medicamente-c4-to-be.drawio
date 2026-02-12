@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-05-23T10:00:00.000Z" agent="Manual Generation" etag="gYtT" version="21.2.9" type="device">
+  <diagram name="Page-1" id="c4-container-diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="96899667-71c1-4621-9d74-0cc1810b480b" value="<b>Patient</b><br>Mobile/Web User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="20" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="48e4c9d2-bbdb-423b-9d04-74e80abb787f" value="<b>Medical Staff</b><br>Internal User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="600" y="20" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="470ad324-545b-4872-a1a8-1cb1fd044f40" value="<b>Data Analyst</b><br>Business User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="900" y="20" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="b943ce96-a526-40a1-8b4b-f8868b615b93" value="<b>Web App</b><br>Patient Portal (React)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="200" y="150" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="3671529d-2c26-437d-a83a-6b09814b1e92" value="<b>Mobile App</b><br>React Native" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="400" y="150" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="bfcbd201-34c9-4b10-9e22-f98ea0d09594" value="<b>Internal Portal</b><br>Staff Portal (React)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="600" y="150" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="69dd44a5-6d19-4ded-b03c-6bf7e6268e1e" value="<b>API Gateway</b><br>Nginx/Kong" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="400" y="280" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="faec8fe0-2a9f-4c17-bab8-7afba6ae341a" value="<b>Identity Provider</b><br>Keycloak" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="80" y="400" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="21301ddf-761f-4cc9-bd04-5b791d7a8f06" value="<b>Secrets Mgmt</b><br>HashiCorp Vault" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="80" y="500" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="cd2bd1e1-163a-423b-bdfb-9a2b7623e96a" value="<b>Audit Logging</b><br>ELK Stack" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="80" y="600" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="b2137aa9-585e-46d6-8b06-bd206cf3b33a" value="<b>Patient Service</b><br>Java/Spring" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="450" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="ccc87f59-6ba6-4f9b-9241-7e3d489c6a3a" value="<b>Appointment Svc</b><br>Java/Spring" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="450" y="450" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="e23e66da-a5c3-49bf-aa03-551b8160dccf" value="<b>Medical Rec Svc</b><br>Java/Spring" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="600" y="450" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="83d8566d-dcd3-48eb-995e-4ed0ef96bfa7" value="<b>Payment Service</b><br>Java/Spring" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;dashed=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;verticalAlign=middle;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="750" y="450" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="e029c528-6dde-43e0-a27a-021012d7e0c7" value="<b>Operational DB</b><br>PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="450" y="600" width="100" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="2c48a0e3-f4dd-49dc-ae58-37a9b4e5d8d6" value="<b>File Storage</b><br>S3/MinIO" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="650" y="600" width="100" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="38905e37-d046-40b8-b874-3ea8b190ec9a" value="<b>ETL / Anonymization</b><br>Python/Airflow" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="900" y="450" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="c7d40ad8-e210-4f36-b987-fe573ec75f10" value="<b>Analytical DB</b><br>ClickHouse" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="900" y="600" width="100" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="d65404e2-bc5c-4d62-a6cb-404f04f0af8e" value="<b>BI Tool</b><br>Superset/Metabase" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="900" y="280" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="d68d6e6c-d9e2-4024-9f0b-a321fdd42cd8" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="96899667-71c1-4621-9d74-0cc1810b480b" target="b943ce96-a526-40a1-8b4b-f8868b615b93" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="f7ca7429-49f8-4880-94e1-6d945c3b0fff" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="96899667-71c1-4621-9d74-0cc1810b480b" target="3671529d-2c26-437d-a83a-6b09814b1e92" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="65de17c1-abb3-456f-81c9-04e536a80156" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="48e4c9d2-bbdb-423b-9d04-74e80abb787f" target="bfcbd201-34c9-4b10-9e22-f98ea0d09594" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="57913b4c-869d-4883-91ef-4a59d1793dd1" value="JSON/HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b943ce96-a526-40a1-8b4b-f8868b615b93" target="69dd44a5-6d19-4ded-b03c-6bf7e6268e1e" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="d7d1562a-3b5d-43fc-826e-02b87dde49f8" value="JSON/HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3671529d-2c26-437d-a83a-6b09814b1e92" target="69dd44a5-6d19-4ded-b03c-6bf7e6268e1e" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="41f3db49-bcd9-47a1-9782-70c7ec53105d" value="JSON/HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bfcbd201-34c9-4b10-9e22-f98ea0d09594" target="69dd44a5-6d19-4ded-b03c-6bf7e6268e1e" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="2a5898d7-ba03-4b47-abbb-a35ab5199c6e" value="mTLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="69dd44a5-6d19-4ded-b03c-6bf7e6268e1e" target="b2137aa9-585e-46d6-8b06-bd206cf3b33a" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="20498751-0c5c-482e-b246-6b5783908244" value="mTLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="69dd44a5-6d19-4ded-b03c-6bf7e6268e1e" target="ccc87f59-6ba6-4f9b-9241-7e3d489c6a3a" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="cbde614a-23f2-45a3-a552-4f4944dc90fa" value="mTLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="69dd44a5-6d19-4ded-b03c-6bf7e6268e1e" target="e23e66da-a5c3-49bf-aa03-551b8160dccf" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="2512e60a-3911-4e8b-a550-cc9dc8caa455" value="mTLS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="69dd44a5-6d19-4ded-b03c-6bf7e6268e1e" target="83d8566d-dcd3-48eb-995e-4ed0ef96bfa7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="ad77761d-14db-499a-9dc3-b83b5cca4e49" value="Auth" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b2137aa9-585e-46d6-8b06-bd206cf3b33a" target="faec8fe0-2a9f-4c17-bab8-7afba6ae341a" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="32776f3c-41e9-43a9-96b3-b8ddd58bf895" value="Secrets" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b2137aa9-585e-46d6-8b06-bd206cf3b33a" target="21301ddf-761f-4cc9-bd04-5b791d7a8f06" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e21550e6-d620-4057-b548-6db56125af54" value="Logs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b2137aa9-585e-46d6-8b06-bd206cf3b33a" target="cd2bd1e1-163a-423b-bdfb-9a2b7623e96a" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="25f612c3-46af-4d1f-8ae5-e3ddebc6f448" value="JDBC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="b2137aa9-585e-46d6-8b06-bd206cf3b33a" target="e029c528-6dde-43e0-a27a-021012d7e0c7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="b6723b9a-bff7-412a-a863-c6a17b65a3a7" value="JDBC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ccc87f59-6ba6-4f9b-9241-7e3d489c6a3a" target="e029c528-6dde-43e0-a27a-021012d7e0c7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="42be43bd-02ea-4701-8d26-13039935a4bc" value="JDBC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e23e66da-a5c3-49bf-aa03-551b8160dccf" target="e029c528-6dde-43e0-a27a-021012d7e0c7" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6ba688c-67cc-40e7-8205-482e5bcd66fc" value="S3 API" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e23e66da-a5c3-49bf-aa03-551b8160dccf" target="2c48a0e3-f4dd-49dc-ae58-37a9b4e5d8d6" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8c78f5d5-2813-440a-93d3-e4b001040343" value="Replica Read" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="e029c528-6dde-43e0-a27a-021012d7e0c7" target="38905e37-d046-40b8-b874-3ea8b190ec9a" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="c4871ce8-c454-4768-81fe-960c011280a3" value="Write Anonymized" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="38905e37-d046-40b8-b874-3ea8b190ec9a" target="c7d40ad8-e210-4f36-b987-fe573ec75f10" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="fcde4e3a-fd4f-474d-8d74-c62f072eb6d7" value="Read" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="d65404e2-bc5c-4d62-a6cb-404f04f0af8e" target="c7d40ad8-e210-4f36-b987-fe573ec75f10" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="8860bf83-4b4b-4fcf-9673-cddf8adba57e" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="470ad324-545b-4872-a1a8-1cb1fd044f40" target="d65404e2-bc5c-4d62-a6cb-404f04f0af8e" edge="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
